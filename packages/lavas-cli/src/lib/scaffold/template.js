@@ -37,7 +37,7 @@ async function downloadTemplateFromCloud(framework, template, targetPath) {
     try {
         let result = await axios.request({
             responseType: 'arraybuffer',
-            url: `${conf.TAR_GZ_ENDPOINT}${framework}/${template}/templates.tar.gz`,
+            url: `${conf.TAR_GZ_ENDPOINT}-${framework}/releases/download/release-${template}/templates.tar.gz`,
             method: 'get',
             headers: {
                 'Content-Type': 'application/x-gzip'
