@@ -24,11 +24,11 @@ module.exports = {
      * @type {String}
      */
     GLOBAL_CONF_URL: {
-        production: 'https://bos.nj.bpc.baidu.com/mms-res/lavas-scaffold/config_2.0.0.json',
-        development: 'https://bos.nj.bpc.baidu.com/mms-res/lavas-scaffold/config_dev.json'
+        production: 'https://raw.githubusercontent.com/careysky/lavas-config/master/config_2.0.0.json',
+        development: 'https://raw.githubusercontent.com/careysky/lavas-config/master/config_dev.json'
     },
 
-    TAR_GZ_ENDPOINT: 'https://bos.nj.bpc.baidu.com/v1/assets/lavas/',
+    TAR_GZ_ENDPOINT: 'https://github.com/careysky/lavas-template',
 
     /**
      * render common data
